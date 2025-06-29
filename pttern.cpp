@@ -129,7 +129,7 @@ c c c c c
 d d d d d
 e e e e e
 
-*/
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -139,6 +139,29 @@ int main(){
         k = 'a'+ (i - 1);
         for (j=1; j <= 5 ; j++){
             cout << k << " ";
+        }
+        cout << endl;
+    }
+}
+
+
+
+a b c d e 
+a b c d e 
+a b c d e 
+a b c d e 
+a b c d e 
+
+ */
+
+#include<iostream>
+using namespace std;
+int main(){
+    int i;
+    char j;
+    for (i = 1; i <= 5; i++){
+        for (j = 'a'; j <= 'e'; j++){
+            cout << j << " ";
         }
         cout << endl;
     }
