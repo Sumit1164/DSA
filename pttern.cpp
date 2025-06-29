@@ -146,13 +146,13 @@ int main(){
 
 
 
-a b c d e 
-a b c d e 
-a b c d e 
-a b c d e 
-a b c d e 
+a b c d e
+a b c d e
+a b c d e
+a b c d e
+a b c d e
 
- */
+
 
 #include<iostream>
 using namespace std;
@@ -166,3 +166,28 @@ int main(){
         cout << endl;
     }
 }
+
+
+
+// print ASCII Value of A B C D E
+A  B  C   D   E 
+97 98 99 100 101 
+97 98 99 100 101 
+97 98 99 100 101 
+97 98 99 100 101 
+97 98 99 100 101
+
+#include<iostream>
+    using namespace std;
+int main(){
+    int row, col;
+    for (row = 1; row <= 5; row++){
+        char name = 'a';
+        for (col = 1; col <= 5; col++){
+            cout << name + col - 1<<" ";
+        }
+        cout << endl;
+    }
+}
+
+*/
