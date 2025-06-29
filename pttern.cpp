@@ -107,7 +107,7 @@ int main(){
 1 4 9 16 25
 1 4 9 16 25
 1 4 9 16 25
-*/
+
 
 #include<iostream>
 using namespace std;
@@ -116,6 +116,29 @@ int main(){
     for (i = 1; i <= 5; i++){
         for (j = 1; j <= 5; j++){
             cout << j * j << " ";
+        }
+        cout << endl;
+    }
+}
+
+
+
+a a a a a
+b b b b b
+c c c c c
+d d d d d
+e e e e e
+
+*/
+#include<iostream>
+using namespace std;
+int main(){
+    int i, j;
+    char k;
+    for (i = 1; i <= 5; i++){
+        k = 'a'+ (i - 1);
+        for (j=1; j <= 5 ; j++){
+            cout << k << " ";
         }
         cout << endl;
     }
