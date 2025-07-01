@@ -91,13 +91,35 @@ int main(){
 // c c c 
 // d d d d 
 // e e e e e 
-
+/*
 #include<iostream>
 using namespace std;
 int main(){
     for (char i = 'a'; i <= 'e'; i++){
         for (char c = 'a'; c <= i; c++){
             cout << i<<" ";
+        }
+        cout << endl;
+    }
+}
+
+
+
+* * * * *
+* * * *
+* * *
+* *
+*
+
+*/
+
+#include<iostream>
+using namespace std;
+int main(){
+    int i, j;
+    for (i = 1; i <= 5; i++){
+        for (j = 1; j <= 5-(i-1); j++){
+            cout << "*"<<" ";
         }
         cout << endl;
     }
