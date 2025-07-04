@@ -43,7 +43,7 @@ int main(){
     }
 }
 
-*/
+
 
 //         1
 //       1 2
@@ -54,9 +54,11 @@ int main(){
 #include<iostream>
 using namespace std;
 int main(){
-    int i, j;
-    for (i = 1; i <= 5; i++){
-        for (j = 1; j <= 5 - i; j++){
+    int i, j, n;
+    cout << "Eneter a number: ";
+    cin >> n;
+    for (i = 1; i <= n; i++){
+        for (j = 1; j <= n - i; j++){
             cout << "  ";
         }
         for (j = 1; j <= i; j++){
@@ -65,3 +67,5 @@ int main(){
         cout << endl;
     }
 }
+
+*/
