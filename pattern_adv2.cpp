@@ -69,3 +69,24 @@ int main(){
 }
 
 */
+
+
+//         A
+//       A B
+//     A B C
+//   A B C D 
+// A B C D E
+#include<iostream>
+using namespace std;
+int main(){
+    int i, c;
+    for (i = 1; i <= 5; i++){
+        for (c = 1; c <= 5 - i; c++){
+            cout << "  ";
+        }
+        for (char ac = 'A'; ac <= 'A'+i-1; ac++){
+            cout << ac<<" ";
+        }
+        cout << endl;
+    }
+}
