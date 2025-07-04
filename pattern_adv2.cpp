@@ -74,7 +74,7 @@ int main(){
 //         A
 //       A B
 //     A B C
-//   A B C D 
+//   A B C D
 // A B C D E
 #include<iostream>
 using namespace std;
@@ -92,14 +92,14 @@ int main(){
 }
 
 
-*/
+
 
 
 //         1
 //       2 1
 //     3 2 1
 //   4 3 2 1
-// 5 4 3 2 1 
+// 5 4 3 2 1
 
 
 #include<iostream>
@@ -118,3 +118,12 @@ int main(){
         cout << endl;
     }
 }
+
+*/
+
+
+//         *
+//       * * *
+//     * * * * *
+//   * * * * * * * 
+// * * * * * * * * * 
