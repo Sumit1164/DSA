@@ -204,7 +204,7 @@ int main(){
 }
 
 
-*/
+
 // 2nd way to print inverted pyramid pattern
 
 
