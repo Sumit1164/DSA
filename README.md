@@ -22,7 +22,7 @@ I’m working through a wide range of topics, including:
 
 - 🧵 Recursion & Backtracking
 
-🌲 Binary Trees & BST
+- 🌲 Binary Trees & BST
 
 - 🎯 Binary Search
 
@@ -30,7 +30,7 @@ I’m working through a wide range of topics, including:
 
 - 📊 Stack, Queue, Linked List
 
-🕸️ Graphs (BFS, DFS, etc.)
+- 🕸️ Graphs (BFS, DFS, etc.)
 
 🧠 Dynamic Programming
 
