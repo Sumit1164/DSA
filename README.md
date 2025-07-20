@@ -18,9 +18,9 @@ Each day, I solve one or more DSA problems and upload:
 # 🧩 Topics Covered So Far
 I’m working through a wide range of topics, including:
 
-🔢 Arrays & Strings
+- 🔢 Arrays & Strings
 
-🧵 Recursion & Backtracking
+- 🧵 Recursion & Backtracking
 
 🌲 Binary Trees & BST
 
