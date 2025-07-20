@@ -7,13 +7,13 @@ Here, I consistently upload solutions to popular Data Structures and Algorithms 
 # 📅 What You'll Find Here
 Each day, I solve one or more DSA problems and upload:
 
-✅ Clean and well-commented code
+- ✅ Clean and well-commented code
 
-📂 Organized folders by topic (e.g. Arrays, Strings, Trees, Graphs)
+- 📂 Organized folders by topic (e.g. Arrays, Strings, Trees, Graphs)
 
-📝 Problem statements or links (where applicable)
+- 📝 Problem statements or links (where applicable)
 
-🧠 My thought process or brief explanation (coming soon!)
+- 🧠 My thought process or brief explanation (coming soon!)
 
 # 🧩 Topics Covered So Far
 I’m working through a wide range of topics, including:
@@ -32,7 +32,7 @@ I’m working through a wide range of topics, including:
 
 - 🕸️ Graphs (BFS, DFS, etc.)
 
-🧠 Dynamic Programming
+- 🧠 Dynamic Programming
 
 …and more as I progress!
 
