@@ -24,11 +24,11 @@ I’m working through a wide range of topics, including:
 
 🌲 Binary Trees & BST
 
-🎯 Binary Search
+- 🎯 Binary Search
 
-🧮 Hashing
+- 🧮 Hashing
 
-📊 Stack, Queue, Linked List
+- 📊 Stack, Queue, Linked List
 
 🕸️ Graphs (BFS, DFS, etc.)
 
