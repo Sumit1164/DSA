@@ -45,3 +45,11 @@ I'm open to suggestions, feedback, or collaborations — just open an issue or p
 
 # 📌 Stay Connected
 Follow my progress and join the journey! More features like problem links, explanations, and difficulty tags are coming soon. Thanks for stopping by! 💙
+
+
+
+--- 
+
+Actually i was created a repo "Array" so all the related to array problem uploaded on Array repo.
+
+
