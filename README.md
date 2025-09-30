@@ -1,10 +1,10 @@
 # DSA
  
-# 💻 Daily DSA Practice
+## 💻 Daily DSA Practice
 Welcome to my Daily DSA Practice repository! 🚀
 Here, I consistently upload solutions to popular Data Structures and Algorithms problems in various languages (mainly C++/Java/Python). This repo is part of my journey to sharpen problem-solving skills and prepare for coding interviews. 🎯
 
-# 📅 What You'll Find Here
+## 📅 What You'll Find Here
 Each day, I solve one or more DSA problems and upload:
 
 - ✅ Clean and well-commented code
@@ -15,7 +15,7 @@ Each day, I solve one or more DSA problems and upload:
 
 - 🧠 My thought process or brief explanation (coming soon!)
 
-# 🧩 Topics Covered So Far
+## 🧩 Topics Covered So Far
 I’m working through a wide range of topics, including:
 
 - 🔢 Arrays & Strings
