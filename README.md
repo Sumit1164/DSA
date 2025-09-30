@@ -36,14 +36,14 @@ I’m working through a wide range of topics, including:
 
 …and more as I progress!
 
-# ✍️ Why I'm Doing This
+## ✍️ Why I'm Doing This
 Practicing DSA daily helps build problem-solving skills, improves coding speed, and boosts confidence for technical interviews. Sharing my journey here keeps me consistent and hopefully helps others too! 🙌
 
-# 🤝 Contributions
+## 🤝 Contributions
 Feel free to ⭐ star this repo if it helps you!
 I'm open to suggestions, feedback, or collaborations — just open an issue or pull request. 🤗
 
-# 📌 Stay Connected
+## 📌 Stay Connected
 Follow my progress and join the journey! More features like problem links, explanations, and difficulty tags are coming soon. Thanks for stopping by! 💙
 
 
