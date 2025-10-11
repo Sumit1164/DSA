@@ -64,6 +64,9 @@ int main(){
     cout << endl;
 
     // search in vector binary search
-    cout << binary_search(s.begin(), s.end(), 40) << endl; // returns 1 if found else 0
+    // cout << binary_search(s.begin(), s.end(), 40) << endl; // returns 1 if found else 0
+
+    // Find the index of an element in vector
+    cout << find(s.begin(), s.end(), 40) - s.begin() << endl;
     return 0;
 }
