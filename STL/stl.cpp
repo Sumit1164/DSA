@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<typeinfo>
 using namespace std;
 int main(){
     // initialization of vector
@@ -28,9 +29,25 @@ int main(){
     cout << endl;
 
     // Front, Back, at, empty
+    /*
     cout <<"Front element " <<s.front() << endl; // first element
     cout <<"Back element " <<s.back() << endl; // last element
     cout <<"Empty status " <<s.empty() << endl;  // 0 means false, 1 means true
     cout <<"Element at index " <<s.at(2) << endl; // element at index 2
+
+    */
+   // Iterator in vector
+    s.begin(); // points to first element
+    s.end(); // points to next of last element
+    for (auto it = s.begin(); it != s.end(); it++){
+        cout << *it << " ";
+    }
+    cout << endl;
+    // Reverse iterator in vector
+    s.rbegin(); // points to last element
+    s.rend(); // points to next of first element
+    for(auto it = s.rbegin(); it != s.rend(); it++){
+        cout << *it << " ";
+    }
     return 0;
 }
