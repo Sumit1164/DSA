@@ -35,7 +35,7 @@ int main(){
     cout <<"Empty status " <<s.empty() << endl;  // 0 means false, 1 means true
     cout <<"Element at index " <<s.at(2) << endl; // element at index 2
 
-    */
+
    // Iterator in vector
     s.begin(); // points to first element
     s.end(); // points to next of last element
@@ -51,6 +51,8 @@ int main(){
     }
     cout << endl;
     // Sorting in vector
+
+
     vector<int> v = {4, 7, 9, 56, 34, 87, 1, 58, 24};
     sort(v.begin(), v.end()); // sorts in ascending order
     sort(v.begin(), v.end(), greater<int>()); // sorts in descending order
@@ -58,6 +60,10 @@ int main(){
     for (auto it = v.begin(); it != v.end(); it++) {
         cout << *it << " ";
     }
+    */
     cout << endl;
+
+    // search in vector binary search
+    cout << binary_search(s.begin(), s.end(), 40) << endl; // returns 1 if found else 0
     return 0;
 }
