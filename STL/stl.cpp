@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-#include<typeinfo>
+#include<algorithm>
 using namespace std;
 int main(){
     // initialization of vector
@@ -49,5 +49,15 @@ int main(){
     for(auto it = s.rbegin(); it != s.rend(); it++){
         cout << *it << " ";
     }
+    cout << endl;
+    // Sorting in vector
+    vector<int> v = {4, 7, 9, 56, 34, 87, 1, 58, 24};
+    sort(v.begin(), v.end()); // sorts in ascending order
+    sort(v.begin(), v.end(), greater<int>()); // sorts in descending order
+    cout << "Sorted vector: ";
+    for (auto it = v.begin(); it != v.end(); it++) {
+        cout << *it << " ";
+    }
+    cout << endl;
     return 0;
 }
