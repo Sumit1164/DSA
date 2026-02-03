@@ -240,7 +240,7 @@ int main()
     // sum = n*(n+1) / 2;  // second method
     cout << "The sum of N natural numbers is: " << sum;
 
-*/
+
     int n,
     fact = 1, i;
     cout << "Enter the number: ";
@@ -251,7 +251,29 @@ int main()
     }
     cout << "The factorial of " << n << " is: " << fact;
 
+*/
 
+    // Prime number
+    int n, i;
+    cout << "Enter the number: ";
+    cin >> n;
+    if (n < 2)
+    {
+        cout << "Aukaat me not prime: " << n;
+        return 0;
+    }
+    else
+    {
+        for (i = 2; i < n; i++)
+        {
+            if (n % i == 0)
+            {
+                cout << "Not a prime number: " << n;
+                return 0;
+            }
+        }
+        cout << "Prime number: " << n;
+    }
 
     return 0;
 }
