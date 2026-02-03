@@ -2,7 +2,6 @@
 using namespace std;
 int main()
 {
-    /*
     int n;
     cout<<"Enter the number: ";
     cin>>n;
@@ -274,7 +273,6 @@ int main()
         cout << "Prime number: " << n;
     }
 
-    */
 
     // Fibonaacci serise
     int last = 0, prev = 1, current = 1, n, i;
