@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    /*
     int n;
     cout<<"Enter the number: ";
     cin>>n;
@@ -216,5 +217,41 @@ int main()
     {
         cout << table << " * " << i << " = " << table * i << "\n";
     }
+
+    int i, n, p, num;
+    cout << "Enter the number: ";
+    cin >> n;
+    cout << "Enter the power of n: ";
+    cin >> p;
+    num = n;
+    for (i = 1; i < p; i++)
+    {
+        num = num * n;
+    }
+    cout << "The " << n << " power of " << p << " is = " << num;
+
+    int n, i, sum = 0;
+    cout << "Enter the number: ";
+    cin >> n;
+    for (i = 1; i <= n; i++)
+    {
+        sum = sum + i;
+    }
+    // sum = n*(n+1) / 2;  // second method
+    cout << "The sum of N natural numbers is: " << sum;
+
+*/
+    int n,
+    fact = 1, i;
+    cout << "Enter the number: ";
+    cin >> n;
+    for (i = 1; i <= n; i++)
+    {
+        fact = fact * i;
+    }
+    cout << "The factorial of " << n << " is: " << fact;
+
+
+
     return 0;
 }
