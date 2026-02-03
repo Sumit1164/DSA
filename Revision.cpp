@@ -188,5 +188,33 @@ int main()
     {
         cout << "Teenager";
     }
+
+    char x, y;
+    cout << "Enter the starting Character: ";
+    cin >> x;
+    cout << "Enter the ending Character: ";
+    cin >> y;
+    for (char n = x; n <= y; n += 1)
+        cout << n << " ";
+    cout << "\n";
+    for (int i = 10; i >= 1; i -= 1)
+        cout << i << "\n";
+
+    int count = 0;
+    for (int i = 1; i <= 100; i += 3)
+    {
+        cout << i << " ";
+        count++;
+    }
+    cout << "\n";
+    cout << "Total odd numbers 1 to 100 is: " << count;
+
+    int table;
+    cout << "Enter the number for table: ";
+    cin >> table;
+    for (int i = 1; i <= 10; i++)
+    {
+        cout << table << " * " << i << " = " << table * i << "\n";
+    }
     return 0;
 }
