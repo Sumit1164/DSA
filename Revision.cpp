@@ -251,7 +251,6 @@ int main()
     }
     cout << "The factorial of " << n << " is: " << fact;
 
-*/
 
     // Prime number
     int n, i;
@@ -275,5 +274,18 @@ int main()
         cout << "Prime number: " << n;
     }
 
+    */
+
+    // Fibonaacci serise
+    int last = 0, prev = 1, current = 1, n, i;
+    cout << "Enter the number: ";
+    cin >> n;
+    for (i = 1; i <= n; i++)
+    {
+        current = prev + last;
+        last = prev;
+        prev = current;
+    }
+    cout << current;
     return 0;
 }
