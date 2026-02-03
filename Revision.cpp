@@ -115,5 +115,78 @@ int main()
         cout << "Square of " << i << " is: " << i * i << "\n";
     }
 
+
+    int a, b;
+    cout << "Enter a number: ";
+    cin >> a;
+    cout << "Enter a number: ";
+    cin >> b;
+    cout << "Sum of two numbers is: " << a + b;
+    cout << endl;
+    int x = 97;
+    char c = 'x';
+    c = x;
+    // cout<<"THIS IS CHAR AFTER TYPE CAST: "<< c;
+    long long package;
+    cout << "Enter the package: ";
+    cin >> package;
+    if (package > 1000000)
+    {
+        cout << "ABHI JOIN KAR RAHA HU BUT KUCH MONTH ME SALARY BADH JANA CHAHIYE: " << package;
+    }
+    else
+    {
+        cout << "LERE L@ND KE YE TERA PACKAGE";
+    }
+
+    int marks;
+    cout << "Enter Your Math Marks: ";
+    cin >> marks;
+    if (marks >= 33)
+    {
+        cout << "BETA TU PASS HAI";
+    }
+    else
+    {
+        cout << "CHUD GAYE GURU";
+    }
+
+    int a, b;
+    cout << "Enter your first number: ";
+    cin >> a;
+    cout << "Enter your second number: ";
+    cin >> b;
+    if (a > b)
+    {
+        cout << "MAT KAR LALA 'A' BADA HAI TERE SE";
+    }
+    else
+    {
+        cout << "MEIN HU BADA 'B' SAMJHEEE.";
+    }
+
+    int n;
+    cout << "Enter the number: ";
+    cin >> n;
+    if (n % 2 == 0)
+    {
+        cout << "Even";
+    }
+    else
+    {
+        cout << "Odd";
+    }
+
+    int age;
+    cout << "Enter the ager: ";
+    cin >> age;
+    if (age > 18)
+    {
+        cout << "Adult";
+    }
+    else
+    {
+        cout << "Teenager";
+    }
     return 0;
 }
