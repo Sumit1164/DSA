@@ -91,11 +91,11 @@ int main()
     {
         for (int j = 1; j <= 5; j++)
         {
-            // cout<<count<<" ";
-            // count++;
+            cout<<count<<" ";
+            count++;
 
             //  second method
-            cout << (i - 1) * 5 + j << " ";
+            // cout << (i - 1) * 5 + j << " ";
         }
         cout << endl;
     }
