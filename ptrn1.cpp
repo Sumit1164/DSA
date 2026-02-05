@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
+
+    /*
     for (int row = 1; row <= 5; row++){
         for (int col = 1; col <= row; col = col + 1)
         {
@@ -26,5 +28,16 @@ int main(){
         cout << endl;
     }
 
+    */
+
+    for (int i = 0; i <= 5; i++)
+    {
+        for (int j = i; j >= 1; j = j -1)
+        {
+            cout << j << " ";
+        }
+        cout << endl;
+    }
+    
     return 0;
 }
