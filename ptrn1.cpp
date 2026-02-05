@@ -28,7 +28,7 @@ int main(){
         cout << endl;
     }
 
-    
+
 
     for (int i = 0; i <= 5; i++)
     {
@@ -38,11 +38,10 @@ int main(){
         }
         cout << endl;
     }
-    
-    */
+
+
 
     for (int row = 1; row <= 5; row++){
-        
         for (int col = 1; col <= row; col++)
         {
             char name = 'a' + (row - 1);
@@ -50,6 +49,18 @@ int main(){
         }
         cout << endl;
     }
+
+    */
+
+    int row, col;
+    for (row = 1; row <= 5; row = row+1)
+    {
+        for (col = 1; col <= 5-(row - 1); col++){
+            cout << "* ";
+        }
+        cout << endl;
+    }
+    
 
     return 0;
 }
