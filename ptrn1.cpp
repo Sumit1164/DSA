@@ -17,6 +17,14 @@ int main(){
         cout << endl;
     }
 
+    for (int row = 1; row <= 5; row++)
+    {
+        for (int col = 1; col <= row; col = col + 1)
+        {
+            cout << row << " ";
+        }
+        cout << endl;
+    }
 
     return 0;
 }
