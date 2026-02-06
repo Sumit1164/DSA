@@ -16,7 +16,7 @@ int main(){
         cout << endl;
 
     }
-        */
+    
 
     for (int row = 1; row <= 5; row++){
         for (int col = 1; col <= 5 - row; col++){
@@ -29,5 +29,20 @@ int main(){
         cout << endl;
     }
 
-    return 0;
+    */
+
+    int row, col, n;
+    cout << "Enter the number: ";
+    cin >> n;
+    for (row = 1; row <= n; row++){
+        for (col = 1; col <= n - row; col++){
+            cout << "  ";
+        }
+        for (col = 1; col <= row; col++){
+            cout << col<<" ";
+        }
+        cout << endl;
+    }
+
+        return 0;
 }
