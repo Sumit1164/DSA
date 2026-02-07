@@ -35,8 +35,11 @@ int main(){
 
     */
 
-    for (int row = 5; row >= 1; row -= 1){
-        for (int col = 1; col <= 9-(2* row -1)/2; col++){
+    int n;
+    cout << "Enter the number: ";
+    cin >> n;
+    for (int row = n; row >= 1; row -= 1){
+        for (int col = 1; col <= (2*n-1)-(2* row -1)/2; col++){
             cout << "  ";
         }
         for (int col = 1; col <= 2 * row - 1; col++){
