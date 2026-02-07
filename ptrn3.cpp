@@ -14,7 +14,7 @@ int main(){
         }
         cout << endl;
     }
-    */
+
 
     int n, row, col;
     cout << "Enter the number: ";
@@ -32,5 +32,18 @@ int main(){
         }
         cout << endl;
     }
+
+    */
+
+    for (int row = 5; row >= 1; row -= 1){
+        for (int col = 1; col <= 9-(2* row -1)/2; col++){
+            cout << "  ";
+        }
+        for (int col = 1; col <= 2 * row - 1; col++){
+            cout << "*" << " ";
+        }
+        cout << endl;
+    }
+
     return 0;
 }
