@@ -33,7 +33,7 @@ int main(){
         cout << endl;
     }
 
-    */
+
 
     int n;
     cout << "Enter the number: ";
@@ -47,6 +47,8 @@ int main(){
         }
         cout << endl;
     }
+
+    */
 
     return 0;
 }
