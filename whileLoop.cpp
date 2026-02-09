@@ -1,5 +1,31 @@
 #include<iostream>
 using namespace std;
 int main(){
+    int n;
+    cout << "Enter the number: ";
+    cin >> n;
+    int i = 2;
+    // while(i<=10){
+    //     cout << n * i<<endl;
+    //     i++;
+    // }
+
+    // while (i<=n)
+    // {
+    //     if(n % i == 0){
+    //         cout << i << " ";
+    //     }
+    //     i++;
+    // }
+
+    while (i<=n)
+    {
+        if(n % i == 0){
+            cout << i << " " << "even ";
+        }
+        i+2;
+    }
+    
+    
     return 0;
 }
