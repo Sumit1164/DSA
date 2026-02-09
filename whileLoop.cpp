@@ -19,13 +19,23 @@ int main(){
     //     i++;
     // }
 
-    while (i<=n)
+    // while (i<=n)
+    // {
+    //     if(i % 2 == 0){
+    //         cout << i << " " << "even ";
+    //     }
+    //     i+=2;
+    // }
+
+
+    while (j <= n)
     {
-        if(i % 2 == 0){
-            cout << i << " " << "even ";
+        if(j % 2 != 0){
+            cout << j << " " << " odd ";
         }
-        i+=2;
+        j++;
     }
+    
     
     
     return 0;
