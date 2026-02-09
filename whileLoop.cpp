@@ -5,6 +5,7 @@ int main(){
     cout << "Enter the number: ";
     cin >> n;
     int i = 2;
+    int j = 1;
     // while(i<=10){
     //     cout << n * i<<endl;
     //     i++;
@@ -20,10 +21,10 @@ int main(){
 
     while (i<=n)
     {
-        if(n % i == 0){
+        if(i % 2 == 0){
             cout << i << " " << "even ";
         }
-        i+2;
+        i+=2;
     }
     
     
