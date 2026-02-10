@@ -51,10 +51,21 @@ int main(){
     // }
 
     //!        ---------------- Do While Loop;
-    do{
-        cout << j << " ";
-        j++;
-    } while (j <= 10);
+    // do{
+    //     cout << j << " ";
+    //     j++;
+    // } while (j <= 10);
 
+
+    //  Sum of n natural numbers
+
+    int sum = 0, k=1;
+    do{
+        sum += k;
+        
+        k++;
+    } while (k <= n);
+
+    cout <<"The sum of "<< n<<" natural numbers is: "<< sum << " ";
     return 0;
 }
