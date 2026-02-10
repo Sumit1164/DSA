@@ -28,11 +28,18 @@ int main(){
     // }
 
 
-    while (j <= n)
+    // while (j <= n)
+    // {
+    //     if(j % 2 != 0){
+    //         cout << j << " " << " odd ";
+    //     }
+    //     j++;
+    // }
+    
+
+    while (j<=10)
     {
-        if(j % 2 != 0){
-            cout << j << " " << " odd ";
-        }
+        cout << j<<" ";
         j++;
     }
     
