@@ -49,9 +49,12 @@ int main(){
     //     cout << j * n << " ";
     //     j++;
     // }
-    
 
-    
-    
+    //!        ---------------- Do While Loop;
+    do{
+        cout << j << " ";
+        j++;
+    } while (j <= 10);
+
     return 0;
 }
