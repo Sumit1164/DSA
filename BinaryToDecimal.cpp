@@ -73,6 +73,8 @@ int main()
 */ 
 
 //  ! -------------> Binary to Octal
+
+
 int main()
 {
     int binary;
