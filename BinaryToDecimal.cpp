@@ -48,4 +48,24 @@ int main(){
 
 */
 
-// ! ----------> Decimal to octagan 
+// ! ----------> Decimal to octagan
+
+int main()
+{
+    int num;
+    int ans = 0, rem, mul = 1;
+    cout << "Enter the number: ";
+    cin >> num;
+    while (num > 0)
+    {
+        // reminder
+        rem = num % 8;
+        // number divide
+        num /= 8;
+        // ans
+        ans += mul * rem;
+        // mul
+        mul *= 10;
+    }
+    cout << ans;
+}
