@@ -46,7 +46,7 @@ int main(){
 }
 
 
-*/
+
 
 // ! ----------> Decimal to octagan
 
@@ -68,4 +68,38 @@ int main()
         mul *= 10;
     }
     cout << ans;
+}
+
+*/ 
+
+//  ! -------------> Binary to Octal
+int main()
+{
+    int binary;
+    cout << "Enter binary number: ";
+    cin >> binary;
+
+    int decimal = 0, base = 1;
+
+    // Step 1: Binary → Decimal
+    while (binary > 0)
+    {
+        int last = binary % 10;
+        decimal += last * base;
+        base *= 2;
+        binary /= 10;
+    }
+
+    // Step 2: Decimal → Octal
+    int octal = 0, mul = 1;
+
+    while (decimal > 0)
+    {
+        int rem = decimal % 8;
+        octal += rem * mul;
+        mul *= 10;
+        decimal /= 8;
+    }
+
+    cout << "Octal: " << octal;
 }
