@@ -21,10 +21,10 @@ int main(){
     cout << ans << endl;
 }
 
-*/
 
 
-// !  ------------> BINARY TO DECIMAL 
+
+// !  ------------> BINARY TO DECIMAL
 
 int main(){
     int num;
@@ -46,10 +46,6 @@ int main(){
 }
 
 
-
-
-
-
-
+*/
 
 // ! ----------> Decimal to octagan 
