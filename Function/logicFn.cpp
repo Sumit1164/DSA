@@ -36,6 +36,10 @@ int sum(int a, int b){
 int Multi(int x, int y){
     return x * y;
 }
+
+void fun(){
+    cout << "Hello World!" << endl;
+}
 int main()
 {
 
@@ -62,5 +66,6 @@ int main()
 
     cout << "Multiply of two numbers: " << Multi(a, b) << endl;
 
+    fun();
     return 0;
 }
