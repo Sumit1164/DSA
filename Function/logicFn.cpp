@@ -33,6 +33,9 @@ int sum(int a, int b){
     return sum;
 }
 
+int Multi(int x, int y){
+    return x * y;
+}
 int main()
 {
 
@@ -56,6 +59,8 @@ int main()
     cout << "Factorial of " << b << " is " << Factorial(b) << endl;
 
     cout << "Sum of two numbers: " << sum(a, b) << endl;
+
+    cout << "Multiply of two numbers: " << Multi(a, b) << endl;
 
     return 0;
 }
