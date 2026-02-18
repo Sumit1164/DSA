@@ -28,6 +28,10 @@ long long Factorial(int a)
     return fact;
 }
 
+int sum(int a, int b){
+    int sum = a + b;
+    return sum;
+}
 
 int main()
 {
@@ -50,6 +54,8 @@ int main()
     // Factorial
     cout << "Factorial of " << a << " is " << Factorial(a) << endl;
     cout << "Factorial of " << b << " is " << Factorial(b) << endl;
+
+    cout << "Sum of two numbers: " << sum(a, b) << endl;
 
     return 0;
 }
