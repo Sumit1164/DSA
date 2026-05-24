@@ -43,3 +43,32 @@ int main(){
         return nums;
 
 */
+
+
+// HW -> Descending Order 
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int arr[5] = {7, 4, 8, 5, 3};
+    int i, j;
+
+    for (i = 0; i < 5 - 1; i++)
+    {
+        int index = i;
+        for (j = i + 1; j < 5; j++)
+        {
+            if (arr[j] > arr[index])
+            {
+                index = j;
+            }
+        }
+        swap(arr[i], arr[index]);
+    }
+
+    for (i = 0; i < 5; i++)
+    {
+        cout << arr[i] << " ";
+    }
+}
