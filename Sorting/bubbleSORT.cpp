@@ -33,8 +33,10 @@ int main()
         for (i = 0; i < 5 - 1; i++)
         {
             if (arr[i] < arr[i + 1])
+            {
                 swap(arr[i], arr[i + 1]);
-            swapped = 1;
+                swapped = 1;
+            }
         }
         if (swapped == 0)
             break;
