@@ -37,5 +37,5 @@ int main(){
     cin >> key;
 
     cout<<BinarySearchX(n, arr, key);
-    return 0;
+    return 0; 
 }
