@@ -13,15 +13,15 @@ int main(){
     while (end<n)
     {
         if(arr[end]-arr[start] == target){
-            cout << "The given difference is here, start: " << arr[start] << " end is: " << arr[end];
+            cout << "The given difference is here, start: " << arr[start] << " end is: " << arr[end] << " the target is: " << target << endl;
             break;
         }
         else if (arr[end] - arr[start] > target){
-            // cout << "The given difference is too higher start: " << arr[start] << " end is: " << arr[end];
+            cout << "The given difference is too higher start: " << arr[start] << " end is: " << arr[end]<<endl;
             start++;
         }
         else{
-            // cout << "The given difference is low start: " << arr[start] << " end is: " << arr[end];
+            cout << "The given difference is low start: " << arr[start] << " end is: " << arr[end]<<endl;
             end++;
         }
         if (start == end)
