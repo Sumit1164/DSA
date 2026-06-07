@@ -14,20 +14,10 @@ void Rotate90(int matrix[][4]){
     {
         int start = 0, end = n - 1;
         while(start<end){
-                swap(matrix[start][i], matrix[end][i]);
+                swap(matrix[i][start], matrix[i][end]);
                 start++;
                 end--;
         }
-    }
-
-
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 0; j < n; j++)
-        {
-            cout << matrix[i][j] << " ";
-        }
-        cout << endl;
     }
     
 }
@@ -44,5 +34,16 @@ int main(){
         Rotate90(arr);
         k--;
     }
-    
+
+    cout << "\nFinal Matrix:\n";
+    for (int i = 0; i < 4; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            cout << arr[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    return 0;
 }
