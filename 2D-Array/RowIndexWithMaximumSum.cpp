@@ -14,7 +14,6 @@ int main(){
                 index = i;
             }
         }
-
     }
     cout << index << " Ye Le!";
 }
