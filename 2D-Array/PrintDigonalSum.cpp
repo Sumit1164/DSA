@@ -21,6 +21,7 @@ void printSumDig(int arr[3][3], int i, int j){
     cout << second << " ";
 }
 
+
 int main(){
     int arr[3][3] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     printSumDig(arr, 3, 3);
