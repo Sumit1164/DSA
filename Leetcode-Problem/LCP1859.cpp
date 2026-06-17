@@ -17,11 +17,11 @@ int main()
                 ans[pos] = temp;
                 temp.clear();
                 count++;
-                index++; // fix
+                index++; 
             }
             else
             {
-                temp += s[index]; // fix
+                temp += s[index]; 
                 index++;
             }
         }
@@ -37,7 +37,7 @@ int main()
         for (int i = 1; i <= count; i++)
         {
             temp += ans[i];
-            temp += ' '; // fix
+            temp += ' '; 
         }
 
         temp.pop_back();
