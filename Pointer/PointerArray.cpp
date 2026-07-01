@@ -10,7 +10,7 @@ int main()
     // cout << &arr[0] << endl;
     
     // Using pointer to print the address
-    // int *ptr = arr; //1way
+    int *ptr = arr; //1way
     // int *ptr1 = &arr[0]; // 2 way
     // cout << ptr << endl;
 
@@ -19,18 +19,21 @@ int main()
 
 
     // Print the value
-    cout << arr[0];
+    cout << arr[0] << endl;
+    cout << *arr << endl;
+    cout << *(arr + 0) << endl;
+    cout << *ptr << endl;
     cout << endl;
     
     // Print all elements addresses
-    for (int i = 0; i < 5; i++)
-    {
-        cout << arr + i << endl;
-    }
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     cout << arr + i << endl;
+    // }
     
     
-    for (int i = 0; i < 5; i++)
-    {
-        cout << *(arr + i) << endl;
-    }
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     cout << *(arr + i) << endl;
+    // }
 }
