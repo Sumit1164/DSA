@@ -19,17 +19,17 @@ int main()
 
 
     // Print the value
-    cout << arr[0] << endl;
-    cout << *arr << endl;
-    cout << *(arr + 0) << endl;
-    cout << *ptr << endl;
-    cout << endl;
+    // cout << arr[0] << endl;
+    // cout << *arr << endl;
+    // cout << *(arr + 0) << endl;
+    // cout << *ptr << endl;
+    // cout << endl;
     
     // Print all elements addresses
-    // for (int i = 0; i < 5; i++)
-    // {
-    //     cout << arr + i << endl;
-    // }
+    for (int i = 0; i < 5; i++)
+    {
+        cout << arr + i << endl;
+    }
     
     
     // for (int i = 0; i < 5; i++)
