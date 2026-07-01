@@ -6,8 +6,8 @@ int main()
     int arr[5] = {1, 2, 4, 5, 7};
     // Print the address of first element, There are three ways to print the array index 0 value
     cout << arr << endl;
-    // cout << arr + 0 << endl;
-    // cout << &arr[0] << endl;
+    cout << arr + 0 << endl;
+    cout << &arr[0] << endl;
     
     // Using pointer to print the address
     int *ptr = arr; //1way
