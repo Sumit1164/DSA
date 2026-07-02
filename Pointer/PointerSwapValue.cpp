@@ -2,6 +2,8 @@
 using namespace std;
 
 void swapped(int *n, int *m){
+    
+    //Pass by pointer
     *n = *n + *m;
     *m = *n - *m;
     *n = *n - *m;
