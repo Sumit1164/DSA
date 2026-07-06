@@ -47,4 +47,5 @@ int main()
         delete[] ptr[i];
     }
     delete[] ptr;
+    
 }
