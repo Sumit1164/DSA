@@ -44,4 +44,14 @@ int main()
         }
     }
 
+    // Release the memory from the Heap
+    for (int i = 0; i < L; i++)
+    {
+        delete[] ptr[i];
+        for (int j = 0; j < B; j++)
+        {
+            delete[] ptr[i][j];
+        }
+    }
+    delete[] ptr;
 }
