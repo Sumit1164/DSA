@@ -1,0 +1,134 @@
+#include <iostream>
+#include <limits>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+
+    long double num1, num2;
+    char op;
+
+    while (true)
+    {
+
+        cout << "------ CALCULATOR ----------"<<endl;
+        cout << "Operators:\n";
+        cout << "+  -  *  /  %  ^  s(sqrt)"<<endl;
+        cout << "Press q to Quit\n\n";
+
+        cout << "Enter operator: ";
+
+        if (!(cin >> op))
+        {
+            cout << "Invalid Input!\n";
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            continue;
+        }
+
+        if (op == 'q' || op == 'Q')
+            break;
+
+        // Square Root
+        if (op == 's' || op == 'S')
+        {
+
+            cout << "Enter Number: ";
+
+            if (!(cin >> num1))
+            {
+                cout << "Invalid Number!\n";
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                continue;
+            }
+
+            if (num1 < 0)
+            {
+                cout << "Error: Square root of negative number is not possible.\n";
+            }
+            else
+            {
+                cout << "Answer = " << sqrt(num1) << endl;
+            }
+
+            continue;
+        }
+
+        cout << "Enter First Number: ";
+
+        if (!(cin >> num1))
+        {
+            cout << "Invalid Number!\n";
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            continue;
+        }
+
+        cout << "Enter Second Number: ";
+
+        if (!(cin >> num2))
+        {
+            cout << "Invalid Number!\n";
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            continue;
+        }
+
+        switch (op)
+        {
+
+        case '+':
+            cout << "Answer = " << num1 + num2 << endl;
+            break;
+
+        case '-':
+            cout << "Answer = " << num1 - num2 << endl;
+            break;
+
+        case '*':
+            cout << "Answer = " << num1 * num2 << endl;
+            break;
+
+        case '/':
+
+            if (num2 == 0)
+                cout << "Error: Division by Zero!\n";
+            else
+                cout << "Answer = " << num1 / num2 << endl;
+
+            break;
+
+        case '%':
+
+            if (num2 == 0)
+            {
+                cout << "Error: Modulus by Zero!\n";
+            }
+            else if (floor(num1) != num1 || floor(num2) != num2)
+            {
+                cout << "Error: Modulus works only with Integers!\n";
+            }
+            else
+            {
+                cout << "Answer = "
+                     << (long long)num1 % (long long)num2 << endl;
+            }
+
+            break;
+
+        case '^':
+            cout << "Answer = " << pow(num1, num2) << endl;
+            break;
+
+        default:
+            cout << "Error: Invalid Operator!\n";
+        }
+    }
+
+    cout << "\nCalculator Closed Successfully.\n";
+
+    return 0;
+}

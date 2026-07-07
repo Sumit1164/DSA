@@ -1,0 +1,257 @@
+
+// #include <iostream>
+// #include <limits>
+// #include <cmath>
+// #include <string>
+
+// const long double PI = acosl(-1.0L);
+
+// long double degreeToRadian(long double degree)
+// {
+//     return degree * PI / 180.0L;
+// }
+
+// using namespace std;
+
+
+
+// // ---------- Functions ----------
+// long double add(long double a, long double b)
+// {
+//     return a + b;
+// }
+
+// long double subtract(long double a, long double b)
+// {
+//     return a - b;
+// }
+
+// long double multiply(long double a, long double b)
+// {
+//     return a * b;
+// }
+
+// long double divide(long double a, long double b)
+// {
+//     return a / b;
+// }
+
+// long long modulus(long long a, long long b)
+// {
+//     return a % b;
+// }
+
+// long double power(long double a, long double b)
+// {
+//     return pow(a, b);
+// }
+
+// // ---------- Main ----------
+// int main()
+// {
+
+//     long double num1, num2;
+//     char op;
+
+//     cout << "=====================================\n";
+//     cout << "      PROFESSIONAL CALCULATOR\n";
+//     cout << "=====================================\n";
+
+//     long double ans = 0;
+
+//     string history[100];
+//     int historyCount = 0;
+//     while (true)
+//     {
+
+//         cout << "\nAvailable Operators\n";
+//         cout << " +   Addition\n";
+//         cout << " -   Subtraction\n";
+//         cout << " *   Multiplication\n";
+//         cout << " /   Division\n";
+//         cout << " %   Modulus\n";
+//         cout << " ^   Power\n";
+//         cout << " s   Square Root\n";
+//         cout << " i   Sine\n";
+//         cout << " c   Cosine\n";
+//         cout << " t   Tangent\n";
+//         cout << " g   Log10\n";
+//         cout << " l   Natural Log (ln)\n";
+//         cout << " a   Absolute Value\n";
+//         cout << " e   Ceil\n";
+//         cout << " f   Floor\n";
+//         cout << " r   Round\n";
+//         cout << " q   Quit\n";
+
+//         cout << "\nEnter Operator : ";
+
+//         if (!(cin >> op))
+//         {
+//             cout << "Invalid Input!\n";
+
+//             cin.clear();
+//             cin.ignore(numeric_limits<streamsize>::max(), '\n');
+//             continue;
+//         }
+
+//         if (op == 'q' || op == 'Q')
+//         {
+//             cout << "\nCalculator Closed Successfully.\n";
+//             break;
+//         }
+
+//         cout << "Enter First Number : ";
+
+//         if (!(cin >> num1))
+//         {
+//             cout << "Invalid Number!\n";
+
+//             cin.clear();
+//             cin.ignore(numeric_limits<streamsize>::max(), '\n');
+//             continue;
+//         }
+
+//         if (op != 's' && op != 'i' && op != 'c' && op != 't' &&
+//             op != 'g' && op != 'l' && op != 'a' &&
+//             op != 'e' && op != 'f' && op != 'r')
+//         {
+//             cout << "Enter Second Number: ";
+//             cin >> num2;
+
+//             if (!(cin >> num2))
+//             {
+//                 cout << "Invalid Number!\n";
+
+//                 cin.clear();
+//                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
+//                 continue;
+//             }
+//         }
+
+//         switch (op)
+//         {
+
+//         case '+':
+//             cout << "Answer = " << add(num1, num2) << endl;
+//             break;
+
+//         case '-':
+//             cout << "Answer = " << subtract(num1, num2) << endl;
+//             break;
+
+//         case '*':
+//             cout << "Answer = " << multiply(num1, num2) << endl;
+//             break;
+
+//         case '/':
+//             if (num2 == 0)
+//                 cout << "Error: Division by zero!\n";
+//             else
+//                 cout << "Answer = " << divide(num1, num2) << endl;
+//             break;
+
+//         case '%':
+
+//             if (num2 == 0)
+//             {
+//                 cout << "Error: Modulus by zero!\n";
+//             }
+//             else if (floor(num1) != num1 || floor(num2) != num2)
+//             {
+//                 cout << "Error: Modulus supports integers only!\n";
+//             }
+//             else
+//             {
+//                 cout << "Answer = "
+//                     << modulus((long long)num1, (long long)num2)
+//                      << endl;
+//             }
+
+//             break;
+
+//         case '^':
+//             cout << "Answer = " << power(num1, num2) << endl;
+//             break;
+
+//         case 's':
+
+//             if (num1 < 0)
+//                 cout << "Error: Square root of negative number!\n";
+//             else
+//                 cout << "Answer = " << sqrt(num1) << endl;
+
+//             break;
+
+//         case 'i':
+
+//             cout << "Answer = "
+//                  << sin(degreeToRadian(num1))
+//                  << endl;
+
+//             break;
+
+//         case 'c':
+
+//             cout << "Answer = "
+//                  << cos(degreeToRadian(num1))
+//                  << endl;
+
+//             break;
+
+//         case 't':
+
+//             cout << "Answer = "
+//                  << tan(degreeToRadian(num1))
+//                  << endl;
+
+//             break;
+
+//         case 'g':
+
+//             if (num1 <= 0)
+//                 cout << "Error: Invalid Input!\n";
+//             else
+//                 cout << "Answer = " << log10(num1) << endl;
+
+//             break;
+
+//         case 'l':
+
+//             if (num1 <= 0)
+//                 cout << "Error: Invalid Input!\n";
+//             else
+//                 cout << "Answer = " << log(num1) << endl;
+
+//             break;
+
+//         case 'a':
+
+//             cout << "Answer = " << fabsl(num1) << endl;
+
+//             break;
+
+//         case 'e':
+
+//             cout << "Answer = " << ceill(num1) << endl;
+
+//             break;
+
+//         case 'f':
+
+//             cout << "Answer = " << floorl(num1) << endl;
+
+//             break;
+
+//         case 'r':
+
+//             cout << "Answer = " << roundl(num1) << endl;
+
+//             break;
+
+//         default:
+//             cout << "Error: Invalid Operator!\n";
+//         }
+//     }
+
+//     return 0;
+// }
