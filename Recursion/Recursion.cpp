@@ -61,8 +61,8 @@ int main()
     // fun0(0);
 
     // Functional Approach 2
-    fun3(3);
+    // fun3(3);
 
     // Recursive Approach
-    // hBW(n);
+    hBW(n);
 }
