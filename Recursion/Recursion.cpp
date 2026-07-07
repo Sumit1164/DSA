@@ -1,6 +1,27 @@
 #include<iostream>
 using namespace std;
 
+
+void fun3(int n){
+    cout << n << " Days left for birthday\n";
+}
+void fun2(int n)
+{
+    cout << n << " Days left for birthday\n";
+}
+
+void fun1(int n)
+{
+    cout << n << " Days left for birthday\n";
+}
+
+void fun0(int n)
+{
+    cout << "happy birthday\n";
+}
+
+
+
 void hBW(int n)
 {
     if(n==0)
@@ -19,13 +40,19 @@ int main()
     cin >> n;
 
     // Iterative Approach
-    for (int i = n; i >0; i--)
-    {
-        cout << i << " Days Left for Birthday" << endl;
-    }
-    cout << "Happy Birthday";
+    // for (int i = n; i >0; i--)
+    // {
+    //     cout << i << " Days Left for Birthday" << endl;
+    // }
+    // cout << "Happy Birthday";
 
 
+
+    // Functional Approach
+    fun3(3);
+    fun2(2);
+    fun1(1);
+    fun0(0);
 
     // Recursive Approach
     // hBW(n);
