@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 void print(int s)
 {
     if(s ==1)

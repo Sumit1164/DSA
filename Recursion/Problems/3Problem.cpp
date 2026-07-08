@@ -1,19 +1,18 @@
 #include<iostream>
 using namespace std;
 
-void print(int z)
+void print(int z, int x)
 {
-    // int x = z;
-    if(z == 10){
+    if(z == x){
         cout << z << endl;
         return;
     }
     cout << z << endl;
-    print(z +1);
-}
+    print(z +1, x);
+} 
 
 int main()
 {
-    int n = 1;
-    print(n);
+    int n = 10;
+    print(1, n);
 }
