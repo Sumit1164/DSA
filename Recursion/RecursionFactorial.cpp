@@ -38,5 +38,9 @@ int main()
         cout << "Mat Kar Lalaa\nThe given number is not possible to find the factorial: "<<n;
         return 0;
     }
+    else if (n > 31){
+        cout << "Mat Kar Lalaa\nThe given number is too much long, so not possible to find the factorial: " << n;
+        return 0;
+    }
     cout << fact(n);
 }
