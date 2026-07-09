@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 
-int print(int n){
+int sum(int n){
     if(n==1){
         return 1;
     }
-    return n + print(n - 1);
+    return n + sum(n - 1);
 }
 
 
@@ -13,7 +13,7 @@ int main(){
     int n;
     cout << "Enter a number: ";
     cin >> n;
-    int sum = 0;
+    // int sum = 0;
 
     // Iterative approach
     // for (int i = 0; i <= n; i++)
@@ -25,5 +25,5 @@ int main(){
 
 
     // Recursive approach
-    cout<<print(n);
+    cout<<sum(n);
 }
