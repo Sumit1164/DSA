@@ -6,6 +6,13 @@ int fact(int n){
         return 1;
     else if(n==0)
         return 1;
+
+
+    // 2nd way
+    // if (n == 1 || n==0)
+    //     return 1;
+    
+
     return n* fact(n - 1);
 }
 
@@ -27,5 +34,9 @@ int main()
 
     // Recursive approach
 
+    if(n<0){
+        cout << "Mat Kar Lalaa\nThe given number is not possible to find the factorial: "<<n;
+        return 0;
+    }
     cout << fact(n);
 }
