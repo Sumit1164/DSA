@@ -11,8 +11,13 @@ int print(int arr[], int indx, int n)
     return arr[indx]+ print(arr, indx + 1, n);
 }
 
+
+
+
+
 int main()
 {
     int arr[] = {3, 4, 5, 8, 2};
     cout << print(arr, 0, 5);
 }
+
