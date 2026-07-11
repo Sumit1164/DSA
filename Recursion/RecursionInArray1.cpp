@@ -3,17 +3,28 @@ using namespace std;
 
 //  Print array in reverse order and the index point last value of array
 // Output: 7 6 5 4 3
+// void print(int arr[], int index)
+// {
+//     if (index ==-1)
+//         return;
+
+//     cout << arr[index] << " ";
+//     print(arr, index - 1);
+// }
+
+
+
+
+//  Print array and the index point last value of array
+// Output: 3 4 5 6 7
 void print(int arr[], int index)
 {
-    if (index ==-1)
+    if (index == -1)
         return;
 
-    cout << arr[index] << " ";
     print(arr, index - 1);
+    cout << arr[index] << " ";
 }
-
-
-
 
 int main()
 {
