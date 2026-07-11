@@ -2,6 +2,7 @@
 using namespace std;
 
 //  Print array in reverse order and the index point last value of array
+// Output: 7 6 5 4 3
 void print(int arr[], int index)
 {
     if (index ==-1)
@@ -10,6 +11,9 @@ void print(int arr[], int index)
     cout << arr[index] << " ";
     print(arr, index - 1);
 }
+
+
+
 
 int main()
 {
