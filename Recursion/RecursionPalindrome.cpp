@@ -17,6 +17,6 @@ bool palind(string s, int start, int end)
 
 int main()
 {
-    string str = "naman";
+    string str = "namans";
     cout<< palind(str, 0, 4);
 }
