@@ -15,6 +15,6 @@ int cVowel(string s, int index)
 
 int main()
 {
-    string str = "Sumit";
+    string str = "Sumit"; //"amit"
     cout<< cVowel(str, 4);
 }
