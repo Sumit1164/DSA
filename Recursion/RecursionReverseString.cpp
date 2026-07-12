@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void rev(string s, int start, int end)
+void rev(string &s, int start, int end)
 {
     if(start>=end)
         return;
