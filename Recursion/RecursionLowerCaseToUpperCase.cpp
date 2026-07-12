@@ -10,6 +10,6 @@ void ltoU(string &str, int index)
 int main()
 {
     string str= "sumit";
-    ltoU(str, 17);
+    ltoU(str, 4);
     cout << str;
 }
