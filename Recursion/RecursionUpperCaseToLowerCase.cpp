@@ -8,7 +8,7 @@ void utoL(string &str, int index)
     str[index] = 'a' + str[index] - 'A';
     utoL(str, index - 1);
 }
-
+// Call by refrence 
 int main()
 {
     string str = "SUMIT";
