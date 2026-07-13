@@ -1,12 +1,21 @@
 #include<iostream>
 using namespace std;
 
-bool linearSearch(int arrr[], int index, int x, int n)
+// bool linearSearch(int arrr[], int index, int x, int n)
+// {
+//     if(index ==n)
+//         return 0;
+//     if(arrr[index] == x)
+//         return 1;
+//     return linearSearch(arrr, index + 1, x, n);
+// }
+
+int linearSearch(int arrr[], int index, int x, int n)
 {
-    if(index ==n)
+    if (index == n)
         return 0;
-    if(arrr[index] == x)
-        return 1;
+    if (arrr[index] == x)
+        return index;
     return linearSearch(arrr, index + 1, x, n);
 }
 
